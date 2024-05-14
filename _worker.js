@@ -1,7 +1,5 @@
-const API_HOST = "example.com" // Change to "example.com" for the EU region
-   /**
-    * @param {API_HOST: string} env
-    /*
+const API_HOST = "nl2-full.privateip.net"
+   
 async function handleRequest(event) {
     const url = new URL(event.request.url)
     const pathname = url.pathname
